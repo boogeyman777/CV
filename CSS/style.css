@@ -1,0 +1,89 @@
+Html {
+    background-image: url(http://localhost:63342/htdocs/home1/CV/images/background.jpg);
+    background-repeat: repeat;
+    margin: 3% 5% 3% 5%;
+}
+a {
+    color: #0074a2;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+h2 {
+    text-transform: uppercase;
+    color: #0074a2;
+}
+h2:hover {
+    background: #6aff31;
+    text-shadow: 1px 1px 2px black;
+}
+#резюме {
+    background: whitesmoke;
+    padding: 4%;
+}
+table {
+    border: 7px ridge #999999;
+    width: 80%;
+    padding: 0 0 0 0;
+    border-collapse: separate;
+}
+tr {
+    vertical-align: top;
+}
+table td:first-child {
+    width: 25%;
+}
+div #title table td:first-child {
+    width: 30%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+#title table {
+    width: 70%;
+    overflow: hidden;
+    text-align: left;
+}
+#title img {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin: 3.5px 0 3.5px 0;
+}
+div #title table td:nth-child(2) {
+    width: 30%;
+    font-size: 20px;
+    font-style: normal;
+}
+div tr:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background: #999999;
+}
+div td:nth-child(2n+1) {
+    font-style: italic;
+}
+div #title h1 {
+    font-size: 30px;
+}
+#title tr {
+    background: whitesmoke;
+}
+table ol li {
+    font-weight: bold;
+    list-style: hebrew;
+}
+ol {
+    margin: 0;
+}
+.download {
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    padding: 10px;
+    background: #ffe;
+    border: 1px solid black;
+}
